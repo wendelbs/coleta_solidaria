@@ -12,6 +12,7 @@ export  default function Layout() {
                 <TitleSite>Cadastro de Ponto de Entrega</TitleSite> 
                 <MenuTop />
             </TitleTop>
+            teste
             <NewOutlet />
         </NewMain>
     
