@@ -4,13 +4,13 @@ import { Routes,
           BrowserRouter,
         } from "react-router-dom";
 
-import Home from "./routes/home";
-import Sobre from "./routes/sobre";
-import Cadastro from "./routes/cadastro";
-import Instituicoes from "./routes/instituicoes";
-import Produtos from "./routes/produtos";
-import Login from "./routes/login";
-import Layout  from "./routes/pagelayout"
+import Home from "./pages/home";
+import Sobre from "./pages/sobre";
+import Cadastro from "./pages/cadastro";
+import Instituicoes from "./pages/instituicoes";
+import Produtos from "./pages/produtos";
+import Login from "./pages/login";
+import Layout  from "./pages/pagelayout"
 
 
 export default function App() {

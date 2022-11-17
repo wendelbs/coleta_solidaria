@@ -7,17 +7,17 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 
-import { ListProd, BodyStyle } from "./style";
+import {  BodyStyle } from "./style";
 
-function createData(name, size, color, description, unit) {
-    return { name, size, color, description, unit };
+function createData(name, address, district, tell, email, ) {
+    return { name, address, district, tell, email };
   }
   
   const rows = [
-    createData('Blusa', 'M', 'Branca', 'Blusa com manga longa', 4.0),
-    createData('Casaco', 'P', 'Preta', 'Casaco de lã', 4),
-    createData('Jaqueta', 'M', 'Rosa', 'Jaqueta de couro', 6),
-    createData('Sobretudo', 'G', 'Branca', 'Sobretudo de veludo', 4),
+    createData('Viva Melhor', 'Rua Doutor do Fim, 14', 'Jd dom Bosco', '011 985581875', 'viva@gmail.com'),
+    createData('Menos Frio', 'Rua Luiz de Fora, 20', 'Jd Feliz', '0119858585', 'menos@gmail.com'),
+    createData('Lã feliz ', 'Rua dom Bosco, 100', 'Jd Rosa', '011 985858585', 'la@gmail.com'),
+    createData('Mais Feliz', 'Rua Felizberto', 'Jd Fim do mundo', '011 958584545', 'masfeliz@gmail.com'),
   ];
 
 export default function Produtos() {
@@ -30,11 +30,11 @@ export default function Produtos() {
       <Table width={200} sx={{ minnWidth: 450 }} size='medium' aria-label="a dense table">
         <TableHead>
           <TableRow>
-            <TableCell>Produto </TableCell>
-            <TableCell align="center">Tamanho</TableCell>
-            <TableCell align="center">Cor</TableCell>
-            <TableCell align="center">Detalhes</TableCell>
-            <TableCell align="center">Qtd</TableCell>
+            <TableCell>Instituição </TableCell>
+            <TableCell align="center">Nome</TableCell>
+            <TableCell align="center">Endereço</TableCell>
+            <TableCell align="center">Telefone</TableCell>
+            <TableCell align="center">E-mail</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -47,9 +47,10 @@ export default function Produtos() {
                 {row.name}
               </TableCell>
               <TableCell align="center">{row.size}</TableCell>
-              <TableCell align="center">{row.color}</TableCell>
-              <TableCell align="center">{row.description}</TableCell>
-              <TableCell align="center">{row.unit}</TableCell>
+              <TableCell align="center">{row.address}</TableCell>
+              <TableCell align="center">{row.district}</TableCell>
+              <TableCell align="center">{row.tell}</TableCell>
+              <TableCell align="center">{row.email}</TableCell>
             </TableRow>
           ))}
         </TableBody>

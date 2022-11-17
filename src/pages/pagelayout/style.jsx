@@ -9,10 +9,10 @@ export const TitleTop = styled.div `
     display: flex;
 `
 export const TitleSite = styled.h1`
-    margin-top: 70px;
-    margin-left: 20px;
+    margin-top: 50px;
+    margin-left: 60px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15pt;
+    font-size: 20pt;
     color: white;
 `
 export const NewOutlet = styled(Outlet)`

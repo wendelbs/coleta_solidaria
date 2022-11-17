@@ -9,10 +9,9 @@ export  default function Layout() {
   
         <NewMain>
             <TitleTop>
-                <TitleSite>Cadastro de Ponto de Entrega</TitleSite> 
+                <TitleSite>Coleta Solidaria</TitleSite> 
                 <MenuTop />
             </TitleTop>
-            teste
             <NewOutlet />
         </NewMain>
     

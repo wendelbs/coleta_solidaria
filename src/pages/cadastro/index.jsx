@@ -38,7 +38,7 @@ export default function Cadastro() {
                             <TextFieldCustom  color="success" widthprops="522px"  id="nameInstuty" label="Rua" variant="filled"  /> 
                         </Form.Group>
 
-                        <Form.Group className="mb-3" as={Col} controlId="formGridPassword">
+                        <Form.Group className="mb-3" as={Col} controlId="formGridNumber">
                             <TextFieldCustom  color="success" widthprops="250px"  id="nameInstuty" label="Numero" variant="filled"  />
                         </Form.Group>
                     </Row>
@@ -54,7 +54,7 @@ export default function Cadastro() {
                     <Form.Group className="mb-3" id="formGridCheckbox">
                         <TextFieldCustom  color="success" widthprops="800px"  id="nameInstuty" label="SENHA" variant="filled"  />
                     </Form.Group>
-                <TextBoxArea sizew={"1000px"} back={"white"} textplace="SENHA" />
+                
                     <Button variant="primary" type="submit">
                         ENVIAR
                     </Button>
