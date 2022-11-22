@@ -17,14 +17,14 @@ export default function App() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Layout />}>
-        <Route index path="/home" element={<Home />} />
+      
+        <Route index path="/" element={<Home />} />
         <Route path="/cadastro" element={<Cadastro />} />
         <Route path="/sobre" element={<Sobre />} />
         <Route path="/login" element={<Login />} />
         <Route path="/instituicoes" element={<Instituicoes />} />
         <Route path="/produtos" element={<Produtos />} />
-      </Route>
+
     </Routes>
   </BrowserRouter>
   )
